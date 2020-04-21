@@ -167,6 +167,16 @@ define Device/aruba_ap-303h
 endef
 TARGET_DEVICES += aruba_ap-303h
 
+define Device/aruba_instant-on-ap17
+	$(call Device/FitImageLzma)
+	DEVICE_VENDOR := Aruba
+	DEVICE_MODEL := Instant On AP17
+	SOC := qcom-ipq4029
+	DEVICE_PACKAGES := ipq-wifi-aruba_ap-303
+	IMAGES := sysupgrade.bin
+endef
+TARGET_DEVICES += aruba_instant-on-ap17
+
 define Device/asus_map-ac2200
 	$(call Device/FitImageLzma)
 	DEVICE_VENDOR := ASUS

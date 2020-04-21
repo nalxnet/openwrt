@@ -60,6 +60,7 @@ platform_do_upgrade() {
 	8dev,jalapeno |\
 	aruba,ap-303 |\
 	aruba,ap-303h |\
+	aruba,instant-on-ap17 |\
 	avm,fritzbox-7530 |\
 	avm,fritzrepeater-1200 |\
 	avm,fritzrepeater-3000 |\
